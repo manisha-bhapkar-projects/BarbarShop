@@ -1,0 +1,169 @@
+.input-label {
+  /* font-family: Roboto; */
+  /* font-family: "Poppins", sans-serif; */
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.98px;
+  color: #595959;
+  text-transform: capitalize;
+}
+.dropdown-component .input-label .filter {
+  font-size: 11px;
+  letter-spacing: 0.9px;
+  color: #595959;
+}
+.dropdown-component .input-label .lable-error {
+  color: #fc5e34;
+}
+.dropdown-component .input-error {
+  /* font-family: Roboto; */
+  /* font-family: "Poppins", sans-serif; */
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #fc5e34;
+}
+.dropdown-component .custom-dropdown.show .custom-dropdown-dispaly {
+  /* border: solid 1px #3f3e45; */
+  color: #3f3e45 !important;
+}
+.dropdown-component .custom-dropdown-dispaly {
+  border-radius: 3px;
+  border: solid 1px #b2b2b5;
+  /* font-family: Roboto; */
+  /* font-family: "Poppins", sans-serif; */
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3f3e45;
+  height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* // padding: 5px 20px 5px 10px; */
+  text-align: left;
+  /* background-image: url('../../images/arrow-down.png'); */
+
+  width: 100%;
+  text-decoration: none;
+}
+.dropdown-component .custom-dropdown-dispaly ::before {
+  content: url("../../images/arrow-down.png");
+  position: absolute;
+  right: 9px;
+}
+.dropdown-component .custom-dropdown-dispaly .filter {
+  height: 30px;
+  font-size: 14px;
+  color: #000;
+  border: solid 1px #595959;
+}
+.dropdown-component .custom-dropdown-dispaly .dropdown-error {
+  border-color: #fc5e34 !important;
+}
+.dropdown-component .custom-dropdown-dispaly :disabled {
+  background-color: #ededed;
+  border-color: #b2b2b5;
+}
+.dropdown-component .custom-dropdown-dispaly:hover,
+.custom-dropdown-dispaly:focus {
+  text-decoration: none;
+  color: #000;
+}
+.dropdown-component .dropdown-toggle::after {
+  content: none;
+  display: inline-block;
+  margin-left: 5.3em;
+  vertical-align: 0.255em;
+  content: "";
+  border: none;
+  background-image: url("../../images/arrow-down.png");
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 10px;
+  right: 10px;
+}
+
+.dropdown-component .custom-dropdown-list {
+  width: 100%;
+  min-width: 60px;
+  padding: 0px;
+  border: solid 1px #e0e0e1;
+  border-radius: 3px;
+  /* max-height: 168px; */
+  /* overflow-y: scroll; */
+}
+
+/* .dropdown-component .custom-dropdown-list ::-webkit-scrollbar {
+  width: 4px;
+} */
+/* .dropdown-component .custom-dropdown-list ::-webkit-scrollbar-track {
+  background-color: transparent;
+} */
+/* .dropdown-component .custom-dropdown-list .filter {
+  max-height: 126px;
+} */
+.dropdown-component .custom-dropdown-list .custom-dropdown-items {
+  height: 25px;
+  white-space: normal;
+  word-break: break-word;
+  display: flex;
+  padding: 7.5px 10px;
+
+  align-items: center;
+  border-bottom: 1px solid #e0e0e1;
+  color: #000;
+  /* font-family: Roboto; */
+  /* font-family: "Poppins", sans-serif; */
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+.dropdown-component .custom-dropdown-list .custom-dropdown-items :active {
+  background-color: transparent;
+}
+.dropdown-component .custom-dropdown-list .custom-dropdown-items .filter {
+  min-height: 30px;
+  font-size: 14px;
+  padding: 3px 10px;
+}
+.dropdown-component .custom-dropdown-list .dropdown-item.active {
+  background-color: transparent;
+  font-weight: 500;
+  color:#508AEB;
+  /* background-image: url("../../images/arrow-down.png");
+  position: relative;
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  top: 10px;
+  right: 10px; */
+  
+}
+
+.dropdown-component .custom-dropdown-list .no-option-message {
+  height: 30px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  border-bottom: 1px solid #e2e6f2;
+  color: #000;
+  /* font-family: Roboto; */
+  /* font-family: "Poppins", sans-serif; */
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 24px;
+  opacity: 0.8;
+}

@@ -1,0 +1,39 @@
+/* // @import '../../styles/main.scss'; */
+
+.pagination {
+  margin-right: 25px;
+  justify-content: flex-end;
+  
+}
+.pagination .page-item {
+  border: none;
+  height: 22px;
+  width: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 16px;
+  color: #8b8da7;  
+}
+
+.pagination .active {
+  border-radius: 2px;
+  background-color: #6b6d8b;
+  font-weight: bold;
+  color: #ffffff;
+}
+.pagination .page-item :first-child {
+  margin-right: 5px;
+}
+.pagination .page-item :last-child {
+  margin-left: 5px;
+}
+.pagination .page-item .arrow-left {
+  transform: rotate(90deg);
+}
+.pagination .page-item .arrow-right {
+  transform: rotate(-90deg);
+}
